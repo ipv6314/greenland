@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
-
-body{
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap");
+body {
+  background: -webkit-gradient(linear, left top, left bottom, from(#009688), to(#262A33));
   background: linear-gradient(to bottom, #009688, #262A33);
   color: #e0f2f1;
   height: 100vh;
@@ -12,85 +12,45 @@ body{
   overflow: hidden;
 }
 
-main{
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  height: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 2rem;
+  background-color: #262A33;
 }
 
-.indexbrand{
-  background-color: #e0f2f1;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-content: center;
-  text-align: center;
-  color:#00796b;
-  padding-bottom: 2rem;
-}
-.indexbrand img{
-  margin: 2rem auto;
-  width: 50%;
-  height: max-content;
-}
-.indexbrand h2{
-  width: 90%;
-  font-weight: bold;
-  margin: 2rem auto;
-}
-
-
-
-.login_container{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-.login_container form{
-  display: flex;
-  flex-direction: column;
+header span {
   margin: auto;
-  margin-bottom: 5vh;
+  margin-left: 0;
+  font-weight: bolder;
+  font-size: 1.3rem;
 }
-.input-field input{
-  color: #e0f2f1;
-  font-weight: bold;
-}
-.input-field input:focus{
-  border-bottom: 2px solid #e0f2f1;
-}
-.input-field input::placeholder{
-  color: #e0f2f1;
-  font-weight: bold;
-}
-.input-field input:invalid{
-  color: #d50000;
-  border-bottom: 2px solid #d50000;
-}
-.login_container form button{
-  margin: 2rem auto;
-  font-weight: bold;
-  background-color: #80cbc4;
-  color: #00796b;
-  width: 50%;
-  box-shadow: none;
-  padding: 1rem auto;
-}
-.login_container form button:hover{
-  background-color: #00796b;
-  color: #e0f2f1;
-}
-.opciones_login{
-  margin: 5vh auto;
-  padding: 1rem;
-  width: 70%;
+
+header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-around;
-  text-align: center;
 }
-.opciones_login a{
-  color: #e0f2f1;
+
+header ul li {
+  list-style: none;
+  display: inline;
+  margin: auto 1rem;
+}
+
+header ul li a {
+  color: #009688;
   font-weight: bold;
 }
-.opciones_login a:hover{
-  color: #00796b;
+
+header ul li a:hover {
+  color: green;
 }
+/*# sourceMappingURL=styles.css.map */
