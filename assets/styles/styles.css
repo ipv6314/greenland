@@ -1,11 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap");
 body {
-  background: -webkit-gradient(linear, left top, left bottom, from(#009688), to(#262A33));
   background: linear-gradient(to bottom, #009688, #262A33);
   color: #e0f2f1;
   height: 100vh;
   width: 100vw;
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-size: 16px;
   padding: 0;
   margin: 0;
@@ -13,44 +12,30 @@ body {
 }
 
 header {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
   padding: 0 2rem;
   background-color: #262A33;
 }
-
 header span {
   margin: auto;
   margin-left: 0;
   font-weight: bolder;
   font-size: 1.3rem;
 }
-
 header ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
-
 header ul li {
   list-style: none;
   display: inline;
   margin: auto 1rem;
 }
-
 header ul li a {
   color: #009688;
   font-weight: bold;
 }
-
 header ul li a:hover {
   color: green;
-}
-/*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=styles.css.map */
